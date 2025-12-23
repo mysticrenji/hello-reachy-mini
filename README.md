@@ -21,7 +21,7 @@
 | **🤖 Reachy Mini (Wireless)** | **🔌 Reachy Mini Lite** | **💻 Simulation** |
 | :---: | :---: | :---: |
 | The full autonomous experience.<br>Raspberry Pi 4 + Battery + WiFi. | The developer version.<br>USB connection to your computer. | No hardware required.<br>Prototype in MuJoCo. |
-| 👉 [**Go to Wireless Guide**](docs/platforms/reachy_mini/get_started.md) | 👉 [**Go to Lite Guide**](docs/platforms/reachy_mini_lite/get_started.md) | 👉 [**Go to Simulation**](docs/platforms/simulation/get_started.md) |
+| 👉 [**Go to Wireless Guide**](https://github.com/pollen-robotics/reachy_mini/blob/develop/docs/platforms/reachy_mini/get_started.md) | 👉 [**Go to Lite Guide**](https://github.com/pollen-robotics/reachy_mini/blob/develop/docs/platforms/reachy_mini_lite/get_started.md) | 👉 [**Go to Simulation**](https://github.com/pollen-robotics/reachy_mini/blob/develop/docs/platforms/simulation/get_started.md) |
 
 ---
 
