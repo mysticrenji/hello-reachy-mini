@@ -1,5 +1,3 @@
-<div align="center">
-
 # 🤖 Hello Reachy Mini
 
 **Exploring Reachy Mini from an Engineering Perspective**
@@ -60,7 +58,7 @@ Official Reachy Mini SDK: [pollen-robotics/reachy_mini](https://github.com/polle
 ## 2. Hardware Specification
 | Parameter | Value / Result | Details |
 | :--- | :--- | :--- |
-| # ⚙️PU Model** | Cortex-A72 (4 Cores) | *Raspberry Pi 4 Model B* |
+| **⚙️ CPU Model** | Cortex-A72 (4 Cores) | *Raspberry Pi 4 Model B* |
 | **CPU Speed** | 600 MHz (Min) - 1.5 GHz (Max) | |
 | **RAM (Total/Used)** | Total: 3.7Gi (~4GB) / Used: 762Mi | *Healthy memory usage (approx 20%)* |
 | **USB Devices** | - Pollen Robotics Reachy Mini Audio<br>- Terminus Technology Inc. Hub<br>- Linux Foundation 2.0 root hub | *Microphones/Speakers detected as "Reachy Mini Audio"* |
@@ -96,8 +94,21 @@ Official Reachy Mini SDK: [pollen-robotics/reachy_mini](https://github.com/polle
 | **7860** | TCP | `python` (PID 1491) | **Conversation App UI**<br>Standard port for Gradio web interfaces (AI Chat). |
 | **22** | TCP | `sshd` (PID 929) | **SSH Server**<br>Remote command line access. |
 
----
+### Network Endpoints
+| Endpoint | Purpose |
+|----------|---------|
+| `http://reachy-mini.local:8000/` | Robot Control API |
+| `http://reachy-mini.local:7860/` | Conversation App UI (Gradio) |
+| `ssh pollen@reachy-mini.local` | SSH Access |
 
+<img width="1251" height="1321" alt="image" src="https://github.com/user-attachments/assets/64d1f17f-5dd0-4e1c-b361-46e0673bce39" />
+
+---
+## Reachy Mini Conversation App
+- Conversation app uses OpenAI API Key.
+- [Github](https://github.com/pollen-robotics/reachy_mini_conversation_app)
+
+---
 ## 📚 Resources
 
 ### Official Documentation
@@ -106,15 +117,6 @@ Official Reachy Mini SDK: [pollen-robotics/reachy_mini](https://github.com/polle
 - [Lite Version Guide](docs/platforms/reachy_mini_lite/get_started.md)
 - [Simulation Guide](docs/platforms/simulation/get_started.md)
 
-### Network Endpoints
-| Endpoint | Purpose |
-|----------|---------|
-| `http://reachy-mini.local:8000/` | Robot Control API |
-| `http://reachy-mini.local:7860/` | Conversation App UI (Gradio) |
-| `ssh pollen@reachy-mini.local` | SSH Access |
-
----
-
 <div align="center">
 
 **Made with ❤️ for Reachy Mini Development**
@@ -122,4 +124,5 @@ Official Reachy Mini SDK: [pollen-robotics/reachy_mini](https://github.com/polle
 *System audit data generated: December 24, 2025*
 
 </div>
+
 
